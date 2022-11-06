@@ -15,6 +15,8 @@
  * This means that every system that has a JVM can run Kotlin code!
  */
 
+// ------------------------------------------------------------------------------------------------------------------//
+
 // ~~~~~~~~~~ START -> COMMENTS ~~~~~~~~~~ //
 
     // comments in Kotlin are made with two ways:
@@ -27,6 +29,8 @@
 
 // ~~~~~~~~~~ FINISH -> COMMENTS ~~~~~~~~~~ //
 
+// ------------------------------------------------------------------------------------------------------------------//
+
 fun main(){
     /*
     * This is the 'main' function, all projects need to have one to work,
@@ -35,9 +39,21 @@ fun main(){
 
     print(userName)
     // 'print' is a built-in function that outputs in terminal.
+
     println(password)
     // 'println' outputs in terminal and add a new line after the print.
+
+    println("My name is $userName and i have ${2022-1997} years old.")
+    /*
+    * In Kotlin, you can use the String Template to print variables or expressions
+    * using the dollar sign for variables or put an expression inside curly braces.
+    */
+
+    printOut()
+    // This is how you call a function.
 }
+
+// ------------------------------------------------------------------------------------------------------------------//
 
 // ~~~~~~~~~~ START -> VARIABLES ~~~~~~~~~~ //
 
@@ -58,6 +74,43 @@ fun main(){
     * And you have the second way to store data in Kotlin, is with immutable variables:
     */
 
-    val password = 123456
-    // Remember, write the data type is optional.
-    // 'val' you cannot reassign the value or the data type, it's a constant.
+    fun printOut() {
+        val password = 123456
+        // Remember, write the data type is optional.
+        // 'val' you cannot reassign the value or the data type, it's a constant.
+        print(password)
+    }
+
+    // Why did I put the variable 'val' within a function? Because the IDE accused it of bad practice.
+    /*
+    * Variable 'val' can be initialized at runtime, but in this case, because the 'val' password
+    * is outside a class or function, it must be initialized at compile time.
+    * The good practice here is to add the keyword 'const' before 'val':
+    */
+
+    const val password = 123456
+    /* This initialization does not conflict with the other 'password' variable because the
+    * SCOPE of it is private to the 'printOut()' function.
+    */
+
+// ~~~~~~~~~~ FINISH -> VARIABLES ~~~~~~~~~~ //
+
+// ------------------------------------------------------------------------------------------------------------------//
+
+// ~~~~~~~~~~ START -> DATA TYPES ~~~~~~~~~~ //
+
+    /* There are many types of data with different storage capacities.
+    * The correct choice at the time of initializing a variable can positively impact application performance.
+    * For example: A variable that will always have only one number can be declared as type 'Byte',
+    * which reserves less space in the device's memory, because in kotlin's automatic inference,
+    * this variable would be treated as 'Int' which would increase the amount of memory to be reserved for its use.
+    */
+
+    // 'Byte': stores values between -127 and 128;
+    // 'Short': stores values between -32768 and 32767;
+    // 'Int': stores values between -2147483648 and 2147483647;
+    // 'Long': stores values between -9223372036854775808 and 9223372036854775807;
+
+// ~~~~~~~~~~ FINISH -> DATA TYPES ~~~~~~~~~~ //
+
+// ------------------------------------------------------------------------------------------------------------------//
