@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69f2095-ccf4-40f1-b311-4005858de6ab" name="Changes" comment="About Variables">
+    <list default="true" id="c69f2095-ccf4-40f1-b311-4005858de6ab" name="Changes" comment="More about Variables and starting with Data Types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -32,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/bruno/IdeaProjects/HelloWorld"
+    "last_opened_file_path": "C:/Users/bruno/IdeaProjects/Kotlin_Fundamentals"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667696536888</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More about Variables and starting with Data Types">
+      <created>1667778992893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667778992893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +90,7 @@
     <MESSAGE value="First steps with 'main' function and comments." />
     <MESSAGE value="Basic explanations about JDK and JVM." />
     <MESSAGE value="About Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="About Variables" />
+    <MESSAGE value="More about Variables and starting with Data Types" />
+    <option name="LAST_COMMIT_MESSAGE" value="More about Variables and starting with Data Types" />
   </component>
 </project>

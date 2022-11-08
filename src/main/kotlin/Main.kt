@@ -49,7 +49,7 @@ fun main(){
     * using the dollar sign for variables or put an expression inside curly braces.
     */
 
-    printOut()
+    unusedVariables()
     // This is how you call a function.
 }
 
@@ -110,7 +110,29 @@ fun main(){
     // 'Short': stores values between -32768 and 32767;
     // 'Int': stores values between -2147483648 and 2147483647;
     // 'Long': stores values between -9223372036854775808 and 9223372036854775807;
+        // In 'Long' you need add a 'L' after the number:
+            const val numberLong = 4278913465L
+
+    // For numbers with decimals, Kotlin have:
+
+    // 'Float': stores values between 1.4E-45 and 3.4028235E38;
+        // In 'Float' you need add a 'f' or 'F' after the number:
+            const val numberFloat = 3.14f
+    // 'Double': stores values between 4.9E-324 and 1.7976931348623157E308;
+        // 'Double' is the default data type to floating point numbers.
+            const val numberDouble = 2.5 // Kotlin automatically infers the 'Double' type.
 
 // ~~~~~~~~~~ FINISH -> DATA TYPES ~~~~~~~~~~ //
 
 // ------------------------------------------------------------------------------------------------------------------//
+
+
+
+// In so that the IDE does not accuse the non-use of variables or others, they will be called in this function below.
+fun unusedVariables() {
+    print(numberLong)
+    print(numberFloat)
+    print(numberDouble)
+
+    printOut()
+}
