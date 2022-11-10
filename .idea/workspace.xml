@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69f2095-ccf4-40f1-b311-4005858de6ab" name="Changes" comment="More about Variables and starting with Data Types">
+    <list default="true" id="c69f2095-ccf4-40f1-b311-4005858de6ab" name="Changes" comment="More about Data Types (Floating point numbers)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -28,13 +28,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/bruno/IdeaProjects/Kotlin_Fundamentals"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruno/IdeaProjects/Kotlin_Fundamentals&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667778992893</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="More about Data Types (Floating point numbers)">
+      <created>1667869677213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667869677213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +98,7 @@
     <MESSAGE value="Basic explanations about JDK and JVM." />
     <MESSAGE value="About Variables" />
     <MESSAGE value="More about Variables and starting with Data Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="More about Variables and starting with Data Types" />
+    <MESSAGE value="More about Data Types (Floating point numbers)" />
+    <option name="LAST_COMMIT_MESSAGE" value="More about Data Types (Floating point numbers)" />
   </component>
 </project>

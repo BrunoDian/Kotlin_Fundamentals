@@ -122,17 +122,31 @@ fun main(){
         // 'Double' is the default data type to floating point numbers.
             const val numberDouble = 2.5 // Kotlin automatically infers the 'Double' type.
 
+    // Another data types:
+        // 'Char': stores only one character and need to be between single quotes:
+            const val aChar = '!'
+        // 'Boolean': stores only two values, true or false:
+            const val aBoolean = true
+
 // ~~~~~~~~~~ FINISH -> DATA TYPES ~~~~~~~~~~ //
 
 // ------------------------------------------------------------------------------------------------------------------//
 
+// ~~~~~~~~~~ START -> OPERATORS ~~~~~~~~~~ //
 
+
+
+// ~~~~~~~~~~ FINISH -> OPERATORS ~~~~~~~~~~ //
+
+// ------------------------------------------------------------------------------------------------------------------//
 
 // In so that the IDE does not accuse the non-use of variables or others, they will be called in this function below.
 fun unusedVariables() {
     print(numberLong)
     print(numberFloat)
     print(numberDouble)
+    print(aChar)
+    print(aBoolean)
 
     printOut()
 }
