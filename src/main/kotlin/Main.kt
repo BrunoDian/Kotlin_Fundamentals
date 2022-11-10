@@ -50,7 +50,7 @@ fun main(){
     */
 
     unusedVariables()
-    // This is how you call a function.
+    // This is how you call a function in Kotlin.
 }
 
 // ------------------------------------------------------------------------------------------------------------------//
@@ -134,6 +134,21 @@ fun main(){
 
 // ~~~~~~~~~~ START -> OPERATORS ~~~~~~~~~~ //
 
+    // In Kotlin, we have the following arithmetic operators:
+        // '+' : Addition;
+        // '-' : Subtraction;
+        // '*' : Multiplication;
+        // '/' : Division;
+        // '%' : Modulus;
+        // '++' : Increment;
+        // '--' : Decrement.
+
+    // The following assignment operators:
+        // '+=' : Addition;
+        // '-=' : Subtraction;
+        // '*=' : Multiplication;
+        // '/=' : Division;
+        // '%=' : Modulus;
 
 
 // ~~~~~~~~~~ FINISH -> OPERATORS ~~~~~~~~~~ //
