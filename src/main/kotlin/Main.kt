@@ -150,8 +150,37 @@ fun main(){
         // '/=' : Division;
         // '%=' : Modulus;
 
+    // The following comparison operators:
+        // '==' : Equal to;
+        // '!=' : Not equal;
+        // '>' : Greater than;
+        // '<' : Less than;
+        // '>=' : Greater than or equal to;
+        // '<=' : Less than or equal to.
+
+    // The following logical operators:
+        // '&&' : And;
+        // '||' : Or;
+        // '!' : Not.
 
 // ~~~~~~~~~~ FINISH -> OPERATORS ~~~~~~~~~~ //
+
+// ------------------------------------------------------------------------------------------------------------------//
+
+// ~~~~~~~~~~ START -> IF, ELSE ~~~~~~~~~~ //
+
+    // This works like others programming languages:
+        fun ifElseStatement() {
+            if (aBoolean) { // Because the variable is a Boolean, the comparison operator can be omitted.
+                print("It's true")
+            } else if (!aBoolean) { // To change the Boolean value, put '!' before the variable.
+                print("It's true")
+            } else {
+                print("I'm useless...")
+            }
+        }
+
+// ~~~~~~~~~~ FINISH -> IF, ELSE ~~~~~~~~~~ //
 
 // ------------------------------------------------------------------------------------------------------------------//
 
@@ -164,4 +193,5 @@ fun unusedVariables() {
     print(aBoolean)
 
     printOut()
+    ifElseStatement()
 }

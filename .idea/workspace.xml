@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69f2095-ccf4-40f1-b311-4005858de6ab" name="Changes" comment="More about Data Types (Floating point numbers)">
+    <list default="true" id="c69f2095-ccf4-40f1-b311-4005858de6ab" name="Changes" comment="Arithmetic and Assignment operators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668043224859</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Arithmetic and Assignment operators">
+      <created>1668044868897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668044868897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +113,7 @@
     <MESSAGE value="About Variables" />
     <MESSAGE value="More about Variables and starting with Data Types" />
     <MESSAGE value="More about Data Types (Floating point numbers)" />
-    <option name="LAST_COMMIT_MESSAGE" value="More about Data Types (Floating point numbers)" />
+    <MESSAGE value="Arithmetic and Assignment operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arithmetic and Assignment operators" />
   </component>
 </project>
